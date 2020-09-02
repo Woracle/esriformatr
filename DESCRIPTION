@@ -1,0 +1,17 @@
+Package: esriformatr
+Type: Package
+Title: Supports the conversion of sf class data into ESRI's json format for use with the ESRI RestAPI.
+Version: 0.1.0
+Author: Warwick Everett-Rimmer
+Maintainer: Warwick Everett-Rimmer <warwick.everett@hotmail.co.uk>
+Description: Supports the conversion of sf class data into ESRI's json format for use with the ESRI RestAPI.
+License: Use as you see fit
+Encoding: UTF-8
+LazyData: true
+Imports: 
+      dplyr,
+      sf,
+      tidyr,
+      purrr,
+      jsonlite
+RoxygenNote: 7.1.1
